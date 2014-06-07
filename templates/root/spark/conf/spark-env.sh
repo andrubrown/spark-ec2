@@ -2,7 +2,7 @@
 
 export JAVA_HOME="{{java_home}}"
 
-export SPARK_LOCAL_DIRS="{{spark_local_dirs}}"
+export SPARK_LOCAL_DIRS="/mnt/spark,/mnt1/spark"
 
 # Standalone cluster options
 export SPARK_MASTER_OPTS="{{spark_master_opts}}"
